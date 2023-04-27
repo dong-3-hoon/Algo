@@ -6,7 +6,7 @@ int main(){
     // 5줄 반복
     for(int i=0;i<a;i++){
         for(int j=1;j<a;j++){
-            for(int k=a-1;k>-1;k--){
+            for(int k=a-j;k>-1;k--){
                 cout<<" ";
             }
             cout<<"*";
