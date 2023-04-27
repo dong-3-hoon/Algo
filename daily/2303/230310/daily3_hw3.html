@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <title>03_grid</title>
+    <style>
+        .container {}
+
+        .top {
+            padding: 10px;
+            height: 50px;
+            background-size: cover;
+            background-color: red;
+            color: white;
+            display: flex;
+            line-height: 30px;
+        }
+
+        .log_in {
+            border: 2px solid gray;
+            height: 500px;
+            background-size: cover;
+            border-radius: 3px;
+        }
+
+        .sign_in {
+            height: 50px;
+            width: 400px;
+            background-color: green;
+            color: white;
+            margin: 0 auto;
+            text-align: center;
+            line-height: 50px;
+            border-radius: 3px;
+        }
+
+        .hr {
+            border: 0;
+            height: 3px;
+            background: blue;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="top">
+        <p>lnvalid Login or password</p>
+        <!-- Content here -->
+    </div>
+    <p style="font-size: 40px;"><b>SSAFY전용 GitLab 시스템</b></p>
+    <hr>
+    <div class="log_in">
+        <p align="center"><b>Sign in</b></p>
+        <div class="hr"></div>
+        <div class="mb-3">
+            <label for="exampleFormControlTextarea1" class="form-label"><b>&nbsp;Username</b></label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="1"></textarea>
+        </div>
+        <div class="mb-3">
+            <label for="exampleFormControlTextarea1" class="form-label"><b>&nbsp;Password</b></label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="1"></textarea>
+        </div>
+        <div class="form-check" align="left">
+            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+            <label class="form-check-label" for="flexCheckDefault">
+                <b>Remember me?</b>
+            </label>
+        </div>
+        <p align="right" style="color: blue"><b>Forgot your password?</b></p>
+        <div class="sign_in">
+            <p>Sign in</p>
+        </div>
+    </div>
+</body>
+
+</html>

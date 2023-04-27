@@ -1,0 +1,10 @@
+(1)
+def inoder(v):
+    inoder(v.left) # 자신의 왼쪽 자식을 호출
+    print(v) # 자기 자신 출력
+    inoder(v.right) # 자신의 오른쪽 자식을 호출
+
+
+(2)
+중위 순회: B A D C E
+후위 순회: B D E C A

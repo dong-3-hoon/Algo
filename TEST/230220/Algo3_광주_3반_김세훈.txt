@@ -1,0 +1,11 @@
+1. 여는 괄호를 만날 때마다 stack안에 여는 괄호를 push를 하고 닫는 괄호를 만날 때마다 stack에서 여는 괄호를 pop을 한다. 괄호의 개수가 알맞다면 수식이 끝나면 stack은 비어 있을 것이고, 괄호의 개수가 맞지 않다면 스택이 비어있지 않거나 오류가 날 것이다.
+
+2. 
+stack = [(] # 여는 괄호를 만나 stack에 push
+stack = [(, (] # 여는 괄호를 만나 stack에 push
+stack = [(] # 닫는 괄호를 만나 stack에서 pop
+stack = [(, (] # 여는 괄호를 만나 stack에 push
+stack = [(] # 닫는 괄호를 만나 stack에서 pop
+stack = [] # 닫는 괄호를 만나 stack에서 pop
+stack = [] 
+#닫는 괄호가 하나 더 있으므로 stack에서 pop해야 하지만 stack는 비어 있으므로 괄호는 오류이다.

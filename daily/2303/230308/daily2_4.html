@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .board {
+            width: 800px;
+            height: 800px;
+        }
+
+        .row {
+            display: flex;
+            width: 800px;
+            height: 100px;
+        }
+
+
+        .box {
+            width: 100px;
+            height: 100px;
+            background-color: white;
+            border: 1.5px solid black;
+
+        }
+
+        .board .row:nth-child(odd) .box:nth-child(even) {
+            background-color: black;
+        }
+
+        /* 여기 띄어쓰기 해야 함 그래야 상속 됨 */
+        .board .row:nth-child(even) .box:nth-child(odd) {
+            background-color: black;
+        }
+
+        .white_queen {
+            background-image: url(white_queen.png);
+            background-size: contain;
+        }
+
+        .white_rook {
+            background-image: url(white_rook.png);
+            background-size: contain;
+        }
+
+        .white_king {
+            background-image: url(white_king.png);
+            background-size: contain;
+        }
+
+        .black_pawn {
+            background-image: url(black_pawn.png);
+            background-size: contain;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="board">
+        <div class="row">
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+        </div>
+        <div class="row">
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+        </div>
+        <div class="row">
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+        </div>
+        <div class="row">
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+        </div>
+        <div class="row">
+            <div class="box" class="black_pawn">
+                <img src="./black_pawn.png" alt="white_queen" width="100">
+            </div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+        </div>
+        <div class="row">
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+        </div>
+        <div class="row">
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+        </div>
+        <div class="row">
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box">
+                <img src="./white_queen.png" alt="white_queen" width="100">
+            </div>
+            <div class="box">
+                <img src="./white_king.png" alt="white_king" width="100">
+            </div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box">
+                <img src="./white_rook.png" alt="white_rook" width="100">
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

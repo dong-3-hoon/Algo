@@ -1,0 +1,20 @@
+auto close tag
+auto rename tag
+community material theme
+django
+highlight matching tag
+isort
+jupyter
+jupyter cell tags
+jupyter keymap
+jupyter notebook renderers
+jupyter slide show
+korean language pack for visual studio code
+live server
+material icon theme
+onedark pro
+prettify json
+pyhance
+python
+sqlite
+vscode-pdf
