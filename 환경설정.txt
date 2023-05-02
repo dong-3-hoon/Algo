@@ -9,3 +9,6 @@ vue
 vscode vetur 설치
 chrome extension vue.js devtools 설치 - 확장 관리에서 파일 url에 대한 엑세스 허용
 node.js lts 설치
+vscode내부에서
+npm install -g @vue/cli
+vue create vue-cli
